@@ -5,7 +5,7 @@ public class App {
         System.out.println("Hello sneks!");
         int boardWidth = 600;
         int boardHeight = 600;
-        int tileSize = 25;
+        int tileSize = 20;
 
         JFrame frame = new JFrame("Snek Aren't Edible!");
         frame.setVisible(true);

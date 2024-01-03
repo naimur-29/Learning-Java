@@ -20,7 +20,7 @@ public class Tile {
     }
 
     public void draw(Graphics g) {
-        g.drawRect(this.x * this.tileSize, this.y * this.tileSize, this.tileSize, this.tileSize);
+        g.fillRect(this.x * this.tileSize, this.y * this.tileSize, this.tileSize, this.tileSize);
     }
 
     public void setLocation(int x, int y) {

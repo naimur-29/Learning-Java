@@ -57,6 +57,7 @@ public class SnekGame extends JPanel implements ActionListener, KeyListener {
                 this.snekTail = new ArrayList<Tile>();
                 this.snekTail.add(index++, prevPrevTail);
                 this.snekTail.add(index++, prevTail);
+                this.snekSpeed = 100;
             }
         }
         this.snekTail.get(index - 1).setLocation(snekHead);
