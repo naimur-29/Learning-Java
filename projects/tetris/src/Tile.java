@@ -11,6 +11,6 @@ public class Tile {
 	
 	public void draw(Graphics g) {
 		g.setColor(Color.green);
-		g.fillRect(this.x * this.size, this.y * this.size, this.size, this.size);
+		g.fillRect(this.x * this.size + 2, this.y * this.size + 2, this.size - 2, this.size - 2);
 	}
 }
